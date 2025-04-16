@@ -1,1 +1,4 @@
-printf("Bonjour")
+int main() {
+    printf("Bonjour\n");
+    return 0;
+}
