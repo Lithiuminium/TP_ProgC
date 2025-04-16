@@ -4,10 +4,10 @@ int main() {
     int num1, num2, resultat;
     char op;
 
-    printf("Entrez le premier nombre : ");
+    puts("Entrez le premier nombre : ");
     scanf("%d", &num1);
 
-    printf("Entrez le deuxième nombre : ");
+    puts("Entrez le deuxième nombre : ");
     scanf("%d", &num2);
 
     printf("Entrez l'opérateur (+, -, *, /, %%, &, |, ~) : ");
