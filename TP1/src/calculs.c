@@ -10,7 +10,7 @@ int main() {
     puts("Entrez le deuxième nombre : ");
     scanf("%d", &num2);
 
-    printf("Entrez l'opérateur (+, -, *, /, %%, &, |, ~) : ");
+    puts("Entrez l'opérateur (+, -, *, /, %%, &, |, ~) : ");
     scanf(" %c", &op);
 
     switch (op) {
