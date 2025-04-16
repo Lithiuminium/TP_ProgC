@@ -1,1 +1,1 @@
-$ gcc bonjour.c
+printf("Bonjour")
