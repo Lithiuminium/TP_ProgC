@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int n = 5;
+    int n;
+
+    puts("Entrez la hauteur de la pyramide : ");
+    scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n - i; j++) {
