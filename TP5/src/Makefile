@@ -20,4 +20,3 @@ $(CLIENT): $(COBJS)
 
 .c.o: 
 	$(CC) -c $*.c
-
